@@ -6,11 +6,11 @@ a {
   }
   
   .logo {
-   padding-left: 20%;
+   padding-left:5% ;
   }
   
   .user {
-    padding-left: 30%;
+    padding-left: 10%;
   }
   
   .subscribe {
@@ -23,5 +23,5 @@ a {
     font-size: .7em;
   }
   .side-buttons {
-    padding-left: 65%;
+    padding-left: 30%;
   }
