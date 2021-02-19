@@ -1,27 +1,33 @@
 a {
   text-decoration: none;
 }
-.mobile-header {
-  width: 100%;
-  }
+
+.header-icons {
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
   
-  /* .logo {
-   padding-left:5% ;
-  }
+/* .logo {
+ 
+}
   
-  .user {
-    padding-left: 10%;
-  } */
+.user {
   
-  .subscribe {
-    border-right: 1px solid black;
-    padding-right: 5px;
-    font-size: .7em;
-  }
-  .login {
-    padding-left: 1px;
-    font-size: .7em;
-  }
-  .side-buttons {
-    padding-left: 30%;
-  }
+}  */
+.side-buttons {
+  padding-left: 30%;
+  text-align: right;
+}  
+.subscribe {
+  border-right: 1px solid black;
+  padding-right: 5px;
+  font-size: .7em;
+}
+
+.login {
+  padding-left: 1px;
+  font-size: .7em;
+}
+
