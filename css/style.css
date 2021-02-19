@@ -1,0 +1,16 @@
+.mobile-header {
+  width: 100%;
+  }
+  
+  .logo {
+   padding-left: 20%;
+  }
+  
+  .user {
+    padding-left: 30%;
+  }
+  
+  .side-buttons {
+    padding-left: 60%;
+    font-size: 0.875em;
+  }
