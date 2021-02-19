@@ -52,17 +52,22 @@ justify-content: space-between;
 .social-icons li {
   list-style: none;
   text-align: center;
-  /* margin: 0 auto; */
-}
-
-li i {
-  margin: 0 auto;
-  line-height: 30px;
-  text-align: center;
   vertical-align: middle;
+  
 }
 
-li a {
+ul li a {
+  display: inline-block;
+  line-height: 100px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #EEEEEE;
+}
+
+/* li a {
   display: inline-block;   
   text-align: center;
   font-size: 15px;
@@ -71,7 +76,7 @@ li a {
   margin: 0 auto;
   border-radius: 50%;
   background-color: #EEEEEE;
-}
+} */
 
 .main-image {
   width: 100%;
