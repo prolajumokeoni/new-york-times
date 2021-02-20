@@ -44,18 +44,17 @@ justify-content: space-between;
 .social-icons {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  padding-top: 10%;
-  padding-right: 10%;  
 }
 
 .social-icons li {
   list-style: none;
   text-align: center;
   vertical-align: middle;
-  
 }
 
+ul li  {
+  padding-right: 2rem;
+}
 ul li a {
   display: inline-block;
   line-height: 30px;
@@ -105,4 +104,11 @@ ul li a {
 }
 .article-line {
   width: 15%;
+}
+.inflation {
+  
+}
+
+.inflation-image {
+ width: 200%;
 }
