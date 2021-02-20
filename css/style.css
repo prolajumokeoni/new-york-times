@@ -100,19 +100,28 @@ ul li a {
 .article-line {
   width: 15%;
 }
-.inflation {
-  
-}
 
-.inflation-image {
- width: 200%;
-}
 
 .inflation {
-  background-image: url("");
+  display: flex;
+  flex-direction: row;
+  background: url(/images/inflation-945.png);
+  background-repeat: no-repeat;
+  background-size: 955px 660px;
+  margin-left: -200px;
+  width: 1050px;
+  height: 660px;
+  flex-wrap: wrap;
 }
 
+.starts {
+  padding-top: 100%;
+}
+
+/* 
 .inflation-text {
-display: block;
-text-align: center;
-}
+  position: relative;
+  top: 30px;
+  width: 50%; 
+  text-align: justify;
+} */
