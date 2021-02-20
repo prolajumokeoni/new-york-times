@@ -13,23 +13,18 @@ align-items: center;
 justify-content: space-between;
 }
 
-.logo {
- 
-}
-  
- 
-
 .search-icon {
   display: none;
 }
 .space {
   display: none;
-} 
+}
 
 .side-buttons {
   padding-left: 30%;
   text-align: right;
 }  
+
 .subscribe {
   border-right: 1px solid black;
   padding-right: 5px;
@@ -111,4 +106,13 @@ ul li a {
 
 .inflation-image {
  width: 200%;
+}
+
+.inflation {
+  background-image: url("");
+}
+
+.inflation-text {
+display: block;
+text-align: center;
 }
