@@ -50,6 +50,7 @@ justify-content: space-between;
 ul li  {
   padding-right: 2rem;
 }
+
 ul li a {
   display: inline-block;
   line-height: 30px;
@@ -105,27 +106,46 @@ ul li a {
 
 .inflation {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   background: url(/images/inflation-945.png);
   background-repeat: no-repeat;
-  background-size: 800px 660px;  
+  background-size: 720px 648px;  
   /* background-size: contain; */
-  width: 800px;
+  width: 720px;
   height: 660px;
-  
+  align-items: center;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
 .inflation-text {
-  width: 70%;
-  margin-top: 80px;
-  padding: 5px;
-  line-height: 1rem;
+  display: flex;
+  text-align: left;
+  width: 22%;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 22%;
 } 
 
-.starts {
-  background-color: black;
-  height: 20px;
-  width: 100px;
-  padding-top: 10%;
+.larry {
+  text-underline-position: above;
+  text-decoration: underline;  
+  text-underline-offset: 10px;
+}
+.image-caption {
+  color: grey;
+  font-size: .5rem;
+}
+.button {
+  background-color: blue;
+  padding: 3px 20px;
+  border-radius: 5px;
+  color: white;
+}
+.editor {
+  background-color: yellowgreen;
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  
 }
