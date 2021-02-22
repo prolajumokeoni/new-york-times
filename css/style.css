@@ -115,7 +115,7 @@ ul li a {
 
 .inflation {
   display: flex;
-  background: url(/images/inflation-945.png);
+  background: url(../images/inflation-945.png);
   background-repeat: no-repeat;
   background-size: 720px 648px;  
   width: 720px;
@@ -191,24 +191,28 @@ ul li a {
 
 .editors-img-1 {
   height: 200px;
-  width: 100%;  
-  /* padding: 0 20% 20% 0; */
+  /* width: 100%; */
+  width: 400px;  
 }
 
 .editors-img-2,
 .editors-img-3 {
+  /* margin: 20px; */
   height: 60px;
   width: 60px;
+  padding-right: 15px;
 }
 
 .editor-img-wrap {
-  /* width: 100%; */
+   /* width: 100%;  */
   order: 2;
 }
 
 .img-source {
   text-align: end;
   margin-right: 10px;
+  font-size: .7rem;
+  color: grey;
 }
 
 .img-source-2,
@@ -217,15 +221,21 @@ ul li a {
   display: none;
 }
 
+.img-date {
+  font-size: .7rem;
+  color: grey;
+}
+.caption-wrap-1,
 .caption-wrap-2,
 .caption-wrap-3 {
+  text-align: left;
   order: 1;
-  padding-right: 20px;
+  padding: 0 20px;
 }
-.editor-line {
-  /* width: 70%; 
-  margin: 0 50px; */
-  
+
+.editor-line-2,
+.editor-line-3 {
+  width: 90%; 
 }
 
 @media (min-width: 768px) {
