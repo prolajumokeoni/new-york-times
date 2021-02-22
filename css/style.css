@@ -1,16 +1,25 @@
-*/ {
-  padding: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+section {
   margin: 0;
+  padding: 0;
 }
+
 a {
   text-decoration: none;
 }
 
 .header-icons {
-width: 100%;
-display: flex;
-align-items: center;
-justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .search-icon {
@@ -134,29 +143,84 @@ ul li a {
   color: grey;
   font-size: .5rem;
 }
+.btn-div {
+  text-align: center;
+}
 .button {
-  background-color: blue;
-  padding: 3px 20px;
+  background-color: #567B95;
+  text-align: center;
+  padding: 6px 60px;
   border-radius: 5px;
   color: white;
 }
 
+.space-astronomy {
+  width: 100%;
+  display: none;
+}
+
 .wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.editors-pick { 
+  width: 350px;
+}
+
+
+.most-popular {
+  display: none;
+}
+
+.space-astronomy:nth-child(1) {
+  display: block;
+}
+
+.space-astronomy:nth-child(2),
+.space-astronomy:nth-child(3) {
+  display: block;
+}
+
+.editors-pick-2,
+.editors-pick-3 {  
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   align-items: center;
-  justify-content: left;
-  width: 80%;
-  /* padding-left: 30px; */
+  justify-content: space-between;
 }
-.editors-pick {
-  /* padding-top: 30px;
-  padding-left: 20px; */
-}
-.editor {
+
+.editors-img-1 {
   height: 200px;
-  width: 350px; 
+  width: 100%;  
+  /* padding: 0 20% 20% 0; */
+}
+
+.editors-img-2,
+.editors-img-3 {
+  height: 60px;
+  width: 60px;
+}
+
+.editor-img-wrap {
+  /* width: 100%; */
+  order: 2;
+}
+
+.img-source {
+  text-align: end;
+  margin-right: 10px;
+}
+
+.img-source-2,
+.img-source-3 {
+  position: relative;
+  display: none;
+}
+
+.caption-wrap-2,
+.caption-wrap-3 {
+  order: 1;
+  padding-right: 20px;
 }
 .editor-line {
   /* width: 70%; 
@@ -164,16 +228,10 @@ ul li a {
   
 }
 
-.editors-text {
-  width: 75%;
-  border: 1px red solid;
+@media (min-width: 768px) {
+
 }
-.first-caption {
-  border: royalblue 1px solid;
-}
-.second-caption {
-  border: greenyellow 1px solid;
-}
-.third-caption {
-  border: black 1px solid;
+
+@media (min-width: 992px) {
+  
 }
