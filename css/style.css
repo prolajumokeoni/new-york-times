@@ -106,11 +106,9 @@ ul li a {
 
 .inflation {
   display: flex;
-  /* flex-direction: row; */
   background: url(/images/inflation-945.png);
   background-repeat: no-repeat;
   background-size: 720px 648px;  
-  /* background-size: contain; */
   width: 720px;
   height: 660px;
   align-items: center;
@@ -142,10 +140,20 @@ ul li a {
   border-radius: 5px;
   color: white;
 }
-.editor {
-  background-color: yellowgreen;
-  width: 50%;
+/* .editors-section {
   display: flex;
+  align-content: center;
+  justify-content: space-between;
+  width: 60%; 
   flex-wrap: wrap;
-  
+  flex-direction: row;
 }
+.editors-pick {
+  display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  /* width: 60%; 
+  flex-wrap: wrap;
+  padding: 50px;
+  flex-direction: row;
+} */
