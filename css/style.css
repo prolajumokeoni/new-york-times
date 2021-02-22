@@ -140,20 +140,40 @@ ul li a {
   border-radius: 5px;
   color: white;
 }
-/* .editors-section {
+
+.wrapper {
   display: flex;
-  align-content: center;
-  justify-content: space-between;
-  width: 60%; 
   flex-wrap: wrap;
   flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 80%;
+  /* padding-left: 30px; */
 }
 .editors-pick {
-  display: flex;
-  align-content: center;
-  justify-content: space-evenly;
-  /* width: 60%; 
-  flex-wrap: wrap;
-  padding: 50px;
-  flex-direction: row;
-} */
+  /* padding-top: 30px;
+  padding-left: 20px; */
+}
+.editor {
+  height: 200px;
+  width: 350px; 
+}
+.editor-line {
+  /* width: 70%; 
+  margin: 0 50px; */
+  
+}
+
+.editors-text {
+  width: 75%;
+  border: 1px red solid;
+}
+.first-caption {
+  border: royalblue 1px solid;
+}
+.second-caption {
+  border: greenyellow 1px solid;
+}
+.third-caption {
+  border: black 1px solid;
+}
