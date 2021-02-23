@@ -45,6 +45,14 @@ a {
   font-size: .7em;
 }
 
+.Space-header {
+  padding: 20px;
+}
+
+.space-line {
+  margin: 0 15px;
+}
+
 .social-icons {
   display: flex;
   align-items: center;
@@ -56,11 +64,11 @@ a {
   vertical-align: middle;
 }
 
-ul li  {
+.social-link  {
   padding-right: 2rem;
 }
 
-ul li a {
+.social-link a {
   display: inline-block;
   line-height: 30px;
   width: 30px;
@@ -84,28 +92,49 @@ ul li a {
 
 .main-image {
   width: 100%;
-  padding-top: 10%;
+  padding-top: 10px;
 }
+
 .image-text {
-  width: 100%;
+  padding: 5px 10px;
+  font-family: 'Times New Roman', Times, serif;
   text-align: left;
-  color: grey;
-  font-size: 1em; 
+  color: rgb(110, 108, 108); 
 }
+
 .title-article {
+  padding: 5px 10px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .sub-title-article {
-  color: grey;
+  color: rgb(51, 51, 51);
+  font-size: .8rem;
+  padding: 15px 10px;
 }
-.article-button {
+
+.article-button-1 {
   display: block;
   text-align: center;
+  padding-top: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+}
+
+.article-button-2 {
+  display: block;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+  color: rgb(50,104,145);
 }
 
 .article-body {
   font-size: 1.2em;
-  color: black;
+  color: rgb(51, 51, 51);
+  padding: 5px 10px;
 }
 .article-line {
   width: 15%;
@@ -117,7 +146,8 @@ ul li a {
   display: flex;
   background: url(../images/inflation-945.png);
   background-repeat: no-repeat;
-  background-size: 720px 648px;  
+  /* background-size: 720px 648px;   */
+  background-size: 100%;  
   width: 720px;
   height: 660px;
   align-items: center;
@@ -191,16 +221,14 @@ ul li a {
 
 .editors-img-1 {
   height: 200px;
-  /* width: 100%; */
-  width: 400px;  
+  width: 100%; 
 }
 
 .editors-img-2,
 .editors-img-3 {
-  /* margin: 20px; */
+  margin: 20px; 
   height: 60px;
   width: 60px;
-  padding-right: 15px;
 }
 
 .editor-img-wrap {
@@ -235,7 +263,44 @@ ul li a {
 
 .editor-line-2,
 .editor-line-3 {
+  margin-left: 20px;
   width: 90%; 
+}
+
+/* .logo {
+  padding-left: 10px; 
+} */
+
+.footer-line {
+  width: 500px;
+}
+.footer-items {
+  margin-left: 10px;
+}
+
+.mobile-footer  {
+  list-style: none;
+  color: rgb(0, 0, 0);
+} 
+
+.footer-items {
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-text-1 {
+  text-align: center;
+}
+
+.footer-text {
+  font-size: .7rem;
+  color: rgb(110, 108, 108);
+}
+
+.footer-list {
+  font-size: .7rem;
+  padding: 10px;
+  color: rgb(110, 108, 108);
 }
 
 @media (min-width: 768px) {
