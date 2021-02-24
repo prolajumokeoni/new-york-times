@@ -60,7 +60,7 @@ a {
 
 .social-icons li {
   list-style: none;
-  text-align: center;
+  /* text-align: center; */
   vertical-align: middle;
 }
 
@@ -92,7 +92,7 @@ a {
 
 .main-image {
   width: 100%;
-  padding-top: 10px;
+  padding-top: 20px;
 }
 
 .image-text {
@@ -139,43 +139,110 @@ a {
 .article-line {
   width: 15%;
 }
+.side-section {
+  width: 100%;
+  position: relative;
+}
 
+.side-img {
+  display: none;
+}
 
+.side-title {
+  color: rgb(110, 108, 108);
+  position: absolute;
+  top: 2%;
+}
 
-.inflation {
+.side-carousel-1 {
+  display: block;
+  border-top: 1px solid rgb(110, 108, 108);
+  border-bottom: 1px solid rgb(110, 108, 108);
   display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  padding: 20px;
+  position: relative;
+}
+.side-img-text-1 {
+  /* border-right: 1px solid rgb(110, 108, 108); */
+  width: 80%;
+  padding: 30px 30px;
+  flex: 0 0 auto; 
+}
+
+.topic {
+  padding: 25px 10px;
+  text-align: left;
+  font-size: 1.2rem;
+  color: rgb(51, 51, 51);
+}
+.inflation {
   background: url(../images/inflation-945.png);
   background-repeat: no-repeat;
-  /* background-size: 720px 648px;   */
-  background-size: 100%;  
-  width: 720px;
-  height: 660px;
-  align-items: center;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  background-size: 720px 648px; 
+  width: 100%;
+  height: 648px;
+  position: relative;
 }
 
 .inflation-text {
-  display: flex;
   text-align: left;
-  width: 22%;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 22%;
+  width: 48%;
 } 
 
-.larry {
-  text-underline-position: above;
-  text-decoration: underline;  
-  text-underline-offset: 10px;
+.inflation-text {
+  display: none;
 }
+
+.inflation-text:nth-child(1),
+.inflation-text:nth-child(2),
+.inflation-text:nth-child(5),
+.inflation-text:nth-child(6) {
+  display: block;
+  position: absolute;
+}   
+
+.inflation-text-1 {
+  top: 25%;
+}
+.inflation-text-2 {
+  top: 25%;
+  right: 10px;
+}
+
+.inflation-text-5 {
+  top: 75%;
+}
+.inflation-text-6 {
+  top: 75%;
+  right: 10px;
+}
+
+.head-larry {
+  padding: 40px 0;
+}
+
+.article-hr {
+  width: 15%;
+  margin-left: 10px;
+}
+
+.larry {
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px 10px 20px;
+}
+
 .image-caption {
   color: grey;
-  font-size: .5rem;
+  text-align: left;
+  padding: 5px 10px;
 }
+
 .btn-div {
   text-align: center;
 }
+
 .button {
   background-color: #567B95;
   text-align: center;
@@ -260,7 +327,10 @@ a {
   order: 1;
   padding: 0 20px;
 }
-
+.editor-line-1 {
+  font-weight: bolder;
+  padding: 20px;
+}
 .editor-line-2,
 .editor-line-3 {
   margin-left: 20px;
