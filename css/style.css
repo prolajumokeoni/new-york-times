@@ -345,7 +345,6 @@ html {
 
 .footer-first-items {
   margin-left: 10px;
-  /* padding: 20px 5px; */
   list-style: none;
   border-top-style: double;
   border-color: rgb(110, 108, 108);
@@ -354,18 +353,18 @@ html {
 .footer-items {
   margin-left: 10px;
 }
-.footer-top {
+
+.logo {
+  margin-top: 10px;
   vertical-align: middle;
 }
 
-.logo {
-  padding-top: 10px 0;
-}
-
 .home {
-  padding-left: 15px;
-  padding-top: 10px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: middle;
   font-size: .8rem;
+  padding-left: 15px;
 }
 
 .mobile-footer  {
