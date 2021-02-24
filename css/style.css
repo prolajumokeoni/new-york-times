@@ -165,6 +165,7 @@ html {
   display: flex;
   flex-wrap: nowrap;
   overflow: auto;
+  margin: 20px;
   padding: 20px;
   position: relative;
 }
@@ -342,14 +343,29 @@ html {
   width: 90%; 
 }
 
-/* .logo {
-  padding-left: 10px; 
-} */
-.footer-section {
-  width: 100%;
+.footer-first-items {
+  margin-left: 10px;
+  /* padding: 20px 5px; */
+  list-style: none;
+  border-top-style: double;
+  border-color: rgb(110, 108, 108);
 }
+
 .footer-items {
   margin-left: 10px;
+}
+.footer-top {
+  vertical-align: middle;
+}
+
+.logo {
+  padding-top: 10px 0;
+}
+
+.home {
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: .8rem;
 }
 
 .mobile-footer  {
