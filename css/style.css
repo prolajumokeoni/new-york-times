@@ -33,7 +33,9 @@ html {
 }
 
 .side-buttons {
-  padding-left: 30%;
+  position: absolute;
+  padding-top: 25px;
+  right: 0;
   text-align: right;
 }  
 
