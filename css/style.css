@@ -85,7 +85,6 @@ html {
 
 .social-icons li {
   list-style: none;
-  /* text-align: center; */
   vertical-align: middle;
 }
 
@@ -357,7 +356,6 @@ html {
 
 .editor-line-1 {
   font-weight: bolder;
-  padding: 20px;
 }
 
 .editor-line-2,
@@ -494,13 +492,86 @@ html {
     transform: scale(.8);
   }
   .astronomy {
+    width: 100%;
+  }
+  .space-astronomy {
+    display: block;
+    width: 50%;
+  }
+
+  .space-astronomy-5,
+  .space-astronomy-6 {
     display: none;
   }
-  
-  .space {
-    width: 100%;
+
+  .most-popular {
     display: block;
+    width: 30%;
   }
+  
+  .second-editor {
+    display: none;
+  }
+
+  .editor-line {
+    display: none;
+  }
+
+  .editor-line-1 {
+    display: block;
+    width: 60%;
+    margin-left: 0;
+  }
+  .section-wrapper {
+    width: 100%;
+  }
+
+  .planet {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    width: 60%;
+  } 
+
+  .editors-pick {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border: 1px solid red;
+  }
+
+  .editors-img {
+    width: 200px;
+    height: 100px;
+    padding: unset;
+    margin: unset;
+    position: relative;
+  } 
+
+  .caption-wrap {
+    /* width: 250px; */
+    width: 80%;
+    padding: 0;
+  }
+
+  .img-source {
+    display: block;
+    margin-right: 3px;
+    width: 80%;
+    /* position: relative;
+    right: 30px; */
+  }
+
+ 
+
+
+  .editor {
+    width: 250px;
+    height: 100px;
+  }
+
+
 
 }
 
