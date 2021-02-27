@@ -215,7 +215,7 @@ html {
   display: none;
 }
 
- .inflation-text-1,
+  .inflation-text-1,
   .inflation-text-2,
   .inflation-text-5,
   .inflation-text-6 {
@@ -496,23 +496,14 @@ html {
   }
   .space-astronomy {
     display: block;
-    width: 50%;
+    width: 70%;
   }
 
   .space-astronomy-5,
   .space-astronomy-6 {
     display: none;
   }
-
-  .most-popular {
-    display: block;
-    width: 30%;
-  }
   
-  .second-editor {
-    display: none;
-  }
-
   .editor-line {
     display: none;
   }
@@ -522,55 +513,55 @@ html {
     width: 60%;
     margin-left: 0;
   }
+
   .section-wrapper {
     width: 100%;
+    display: flex;
   }
-
+  .second-editor {
+    display: none;
+  }
   .planet {
     display: flex;
     flex-wrap: wrap;
-    align-content: center;
-    justify-content: space-between;
-    width: 60%;
+    padding: unset;
   } 
 
-  .editors-pick {
+  .most-popular {
     display: block;
-    width: 90%;
-    padding: 10px;
-    border: 1px solid red;
+    width: 30%;
   }
-
   .editors-img {
     width: 200px;
     height: 100px;
     padding: unset;
     margin: unset;
-    position: relative;
   } 
 
+  
+
+  
+  .editor-img-wrap {
+  }
+
   .caption-wrap {
-    /* width: 250px; */
-    width: 80%;
     padding: 0;
   }
 
   .img-source {
     display: block;
-    margin-right: 3px;
-    width: 80%;
-    /* position: relative;
-    right: 30px; */
   }
 
- 
-
-
-  .editor {
+  /* .editor {
     width: 250px;
     height: 100px;
+  } */
+  .editors-pick {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid red;
+    width: 200px;
   }
-
 
 
 }
