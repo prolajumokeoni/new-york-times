@@ -829,40 +829,55 @@ html {
     width: 35%;
     transform: scale(1.2);
   }
+
   .social-icons {
     padding-left: 50px;
   }
+
   .button {
     padding: 10px 150px;
   }
-  .section-wrapper {
+
+  .section-wrapper, {
     margin-left:  50px;
   }
+
   .space-astronomy {
     display: block;
     width: 30%;
   }
+  
   .editors-pick {
-    padding: 20% 5px;
     width: 90%;
   }
   
-  .popular-line-1 {
-    border-top: 2px solid black;
-  }
+  
   .most-popular {
     width: 20%;
     line-height: 3;
     right: 15%;
   }
+  
   .editors-img {
     width: 350px;
-    height: 200px;
+    height: 250px;
     padding: unset;
     margin: unset;
-  } 
+  }
+
+  .editors-section, 
   .planet {
     width: 70%;
     justify-content: unset;
+    position: relative;
   }
+  .editor-line-1 {
+    width: 88%;
+  }
+
+  .editor-header {
+    top: 5px;
+  }
+ 
+ 
 }
