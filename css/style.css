@@ -723,6 +723,7 @@ html {
 
   .inflation-section {
     margin: 20px 200px;
+    position: relative;
   }
   .sub-title-article {
     line-height: 1;
@@ -762,41 +763,106 @@ html {
 
   .side-section {
     display: block;
-    position: absolute; 
   }
 
-  .side-wrapper-1,
-  .side-wrapper-2,
-  .side-wrapper-3,
-  .side-wrapper-4,
-  .side-wrapper-5 {
-    display: none;
-  }
 
-  .side-carousel-1 {
+  .side-carousel {
     display: block;
-    border-top: none;
-    border-bottom: none;
+    border: none;
     display: flex;
     overflow: unset;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    width: 50%;
+    width: 100%;
+    display: block;
+    position: absolute;
+    left: 900px;
+    top: 0;
+  }
+  .side-wrapper {
+    display: flex;
+    vertical-align: middle;
   }
 
   .side-img {
     display: block;
   }
-.side-pic {
-  width: 150px;
-  height: 150px; 
-  order: 1;
+  .side-pic {
+  padding: 20px;
+  width: 100px;
+  height: 100px; 
 }
   .side-img-text-1 {
-    order: 2;
     border-left: none;
-    margin-top: 30px;
-    padding: 30px 30px;
+    width: 20%;
+    margin-top: 20px;
+    padding: 5px 5px;
+  }
+  
+  .side-wrapper-4,
+  .side-wrapper-5,
+  .side-wrapper-6,
+  .side-wrapper-7,
+  .side-wrapper-8,
+  .side-wrapper-9 {
+    display: none;
+  }
+  
+  .side-title {
+    display: block;
+    position: absolute;
+    left: 900px;
+    width: 50%;
+    padding-left: 60px;
+    color: black;
+  }
+
+  .bottom-article {
+    width: 100%;
+  }
+
+  .btn-div {
+    width: 50%;
+    padding-right: 50px;
+  }
+
+  .icon-button {
+    width: 35%;
+    transform: scale(1.2);
+  }
+  .social-icons {
+    padding-left: 50px;
+  }
+  .button {
+    padding: 10px 150px;
+  }
+  .section-wrapper {
+    margin-left:  50px;
+  }
+  .space-astronomy {
+    display: block;
+    width: 30%;
+  }
+  .editors-pick {
+    padding: 20% 5px;
+    width: 90%;
+  }
+  
+  .popular-line-1 {
+    border-top: 2px solid black;
+  }
+  .most-popular {
+    width: 20%;
+    line-height: 3;
+    right: 15%;
+  }
+  .editors-img {
+    width: 350px;
+    height: 200px;
+    padding: unset;
+    margin: unset;
+  } 
+  .planet {
+    width: 70%;
+    justify-content: unset;
   }
 }
