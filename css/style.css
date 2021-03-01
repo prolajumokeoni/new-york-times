@@ -545,6 +545,8 @@ html {
     position: absolute;
     right: 0;
     top: 0;
+    color: rgb(51, 51, 51);
+    font-weight: 400px;
   }
   
   .editors-img {
@@ -566,7 +568,10 @@ html {
     display: inline-block;
     padding: 50px 10px 10px 10px;
     width: 80%;
+    color: rgb(51, 51, 51);
+    font-weight: 400px;
   }
+
   .space-3,
   .space-4 {
     display: none;
@@ -575,5 +580,46 @@ html {
 }
 
 @media (min-width: 992px) {
+  .header-icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    color: rgb(51, 51, 51);
+  }
+
+  .search-icon {
+    display: block;
+  }
+
+  .space {
+    display: block;
+  }
   
+  .user {
+    display: none;
+  }
+
+  .side-buttons {
+    position: absolute;
+    top: 0;
+  }
+
+  .subscribe {
+    background-color: rgb(50, 104, 145);
+    border: rgb(0, 60, 105);
+    padding: 15px 40px;
+    position: relative;
+    color: white;
+    border-radius: 5px;
+  }
+
+  .login {
+    padding: 15px 15px;
+    background-color: rgb(50, 104, 145);
+    border: rgb(0, 60, 105); 
+    position: relative;
+    color: white;
+    border-radius: 5px;
+  }
 }
