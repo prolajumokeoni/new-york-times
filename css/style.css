@@ -740,6 +740,9 @@ html {
     text-align: left;
     width: 23%;
     top: unset;
+    font-size: 20px;
+    line-height: 1.2;
+    color: rgb(51, 51, 51);
   }
   
   .head-larry {
@@ -747,8 +750,8 @@ html {
   }
 
   .youtube {
-    padding: 0 15px;
-    width: 800px;
+    margin: 0 15px;
+    width: 870px;
     height: 400px;
   }
   
@@ -756,5 +759,44 @@ html {
     width: 900px;
     margin: 0;
   }
-  
+
+  .side-section {
+    display: block;
+    position: absolute; 
+  }
+
+  .side-wrapper-1,
+  .side-wrapper-2,
+  .side-wrapper-3,
+  .side-wrapper-4,
+  .side-wrapper-5 {
+    display: none;
+  }
+
+  .side-carousel-1 {
+    display: block;
+    border-top: none;
+    border-bottom: none;
+    display: flex;
+    overflow: unset;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+  }
+
+  .side-img {
+    display: block;
+  }
+.side-pic {
+  width: 150px;
+  height: 150px; 
+  order: 1;
+}
+  .side-img-text-1 {
+    order: 2;
+    border-left: none;
+    margin-top: 30px;
+    padding: 30px 30px;
+  }
 }
