@@ -426,6 +426,19 @@ html {
   .social-icons {
     padding: 0 60px;
   }
+  .title-article {
+    font-size: 20px;
+    color: rgb(51, 51, 51);
+    line-height: .5;
+  }
+
+  .sub-title-article {
+    font-size: 20px;
+  }
+
+  .inflation-section {
+    padding: 10px;
+  }
 
   article {
     padding: 0 60px;
@@ -450,14 +463,14 @@ html {
   .inflation-text:nth-child(2),
   .inflation-text:nth-child(3),
   .inflation-text:nth-child(4) {
-    margin-top: 170px;
+    margin-top: 150px;
   }
 
   .inflation-text:nth-child(5),
   .inflation-text:nth-child(6),
   .inflation-text:nth-child(7),
   .inflation-text:nth-child(8) {
-    margin-top: 150px;
+    margin-top: 140px;
   }
 
   .side-section {
@@ -584,25 +597,48 @@ html {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
     height: 50px;
     color: rgb(51, 51, 51);
+    vertical-align: middle;
+  }
+
+  .bar {
+    vertical-align: middle;
+  }
+
+  .left-position {
+    display: flex;
+    vertical-align: middle;
   }
 
   .search-icon {
     display: block;
+    padding: 10px 20px;
   }
 
   .space {
     display: block;
+    padding: 10px 20px;
   }
-  
+
+  .space-cosmos {
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+
+  .header-logo {
+    transform: scale(1.5);
+  }
+
   .user {
     display: none;
   }
 
   .side-buttons {
-    position: absolute;
-    top: 0;
+    position: relative;
+    padding-bottom: 20px;
   }
 
   .subscribe {
@@ -610,6 +646,7 @@ html {
     border: rgb(0, 60, 105);
     padding: 15px 40px;
     position: relative;
+    font-size: 10px;
     color: white;
     border-radius: 5px;
   }
@@ -619,7 +656,105 @@ html {
     background-color: rgb(50, 104, 145);
     border: rgb(0, 60, 105); 
     position: relative;
+    font-size: 10px;
     color: white;
     border-radius: 5px;
   }
+
+  .Space-header {
+    padding: 100px 400px 0 400px;
+    font-size: 30px;
+  }
+
+  .space-line {
+    margin: 0 400px;
+    color: rgb(51, 51, 51)
+  }
+  .social-icons {
+    padding: 0 400px 0 400px;
+  }
+  .main-image {
+    width: 80%;
+    margin: 20px 200px 0;
+  }
+
+  .image-text {
+    margin: 0 200px;
+    font-size: 20px;
+    width: 50%;
+  }
+
+  article {
+    margin: 0 400px;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.5;
+  }
+
+  .title-article {
+    font-size: 25px;
+    color: rgb(51, 51, 51);
+    line-height: .5;
+    padding-top: 50px;
+  }
+
+  .sub-title-article {
+    font-size: 20px;
+    line-height: .5;
+  }
+  .topic {
+    font-size: 30px;
+    font-weight: bolder;
+  }
+
+  .inflation-header {
+    padding-top: 50px;
+  }
+  .article-body {
+    font-size: 30px;
+  }
+
+  .article-button-1 {
+    font-size: 20px;
+  }
+  .article-button-2 {
+    font-size: 20px;
+  }
+
+  .inflation-section {
+    margin: 20px 200px;
+  }
+  .sub-title-article {
+    line-height: 1;
+  }
+
+  .inflation {
+    background-repeat: no-repeat;
+    background-size: 1200px 648px; 
+    width: 1200px;
+    height: 648px;
+  }
+
+  .inflation-text {
+    display: block;
+    text-align: left;
+    width: 23%;
+    top: unset;
+  }
+  
+  .head-larry {
+    margin: 0 200px;
+  }
+
+  .youtube {
+    padding: 0 15px;
+    width: 800px;
+    height: 400px;
+  }
+  
+  .main-image-1 {
+    width: 900px;
+    margin: 0;
+  }
+  
 }
