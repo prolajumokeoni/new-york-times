@@ -663,7 +663,7 @@ html {
 
   .Space-header {
     padding: 100px 400px 0 400px;
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .space-line {
@@ -685,7 +685,7 @@ html {
   }
 
   article {
-    margin: 0 400px;
+    margin: 0 300px;
     width: 50%;
     text-align: justify;
     line-height: 1.5;
@@ -702,6 +702,7 @@ html {
     font-size: 20px;
     line-height: .5;
   }
+
   .topic {
     font-size: 30px;
     font-weight: bolder;
@@ -709,9 +710,12 @@ html {
 
   .inflation-header {
     padding-top: 50px;
+    width: 70%;
+    text-align: left;
   }
+
   .article-body {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .article-button-1 {
@@ -722,49 +726,56 @@ html {
   }
 
   .inflation-section {
-    margin: 20px 200px;
+    margin: 0 50px 0 150px;
     position: relative;
   }
+
   .sub-title-article {
     line-height: 1;
   }
 
   .inflation {
     background-repeat: no-repeat;
-    background-size: 1200px 648px; 
-    width: 1200px;
+    background-size: 1000px 648px; 
+    width: 1000px;
     height: 648px;
   }
 
   .inflation-text {
     display: block;
     text-align: left;
-    width: 23%;
+    width: 24%;
     top: unset;
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1;
     color: rgb(51, 51, 51);
   }
   
   .head-larry {
-    margin: 0 200px;
+    margin: 0 50px 0 150px;
   }
 
   .youtube {
     margin: 0 15px;
-    width: 870px;
+    width: 650px;
     height: 400px;
   }
   
   .main-image-1 {
-    width: 900px;
+    width: 650px;
     margin: 0;
+    padding: 5px 0;
+  }
+
+  .image-caption {
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
   }
 
   .side-section {
     display: block;
   }
-
 
   .side-carousel {
     display: block;
@@ -772,12 +783,13 @@ html {
     display: flex;
     overflow: unset;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
     display: block;
     position: absolute;
-    left: 900px;
+    left: 700px;
     top: 0;
   }
+
   .side-wrapper {
     display: flex;
     vertical-align: middle;
@@ -787,14 +799,15 @@ html {
     display: block;
   }
   .side-pic {
-  padding: 20px;
+  padding: 5px;
   width: 100px;
   height: 100px; 
 }
   .side-img-text-1 {
     border-left: none;
-    width: 20%;
-    margin-top: 20px;
+    width: 30%;
+    font-size: 10px;
+    margin-top: 5px;
     padding: 5px 5px;
   }
   
@@ -810,7 +823,7 @@ html {
   .side-title {
     display: block;
     position: absolute;
-    left: 900px;
+    left: 680px;
     width: 50%;
     padding-left: 60px;
     color: black;
@@ -821,21 +834,19 @@ html {
   }
 
   .btn-div {
-    width: 50%;
-    padding-right: 50px;
-  }
-
-  .icon-button {
-    width: 35%;
-    transform: scale(1.2);
-  }
-
-  .social-icons {
-    padding-left: 50px;
+    width: 30%;
   }
 
   .button {
-    padding: 10px 150px;
+    padding: 5px 50px;
+  }
+
+  .icon-button {
+    width: 40%;
+    transform: scale(.8);
+  }
+  .icon-button {
+    padding-right: 30px;
   }
 
   .space-astronomy {
@@ -844,23 +855,30 @@ html {
   }
   
   .editors-pick {
-    width: 90%;
+    width: 70%;
   }
   
   
   .most-popular {
     width: 20%;
-    line-height: 3;
+    line-height: 2;
     right: 15%;
   }
   
   .editors-img {
-    width: 350px;
-    height: 250px;
+    width: 250px;
+    height: 150px;
     padding: unset;
     margin: unset;
   }
 
+  .editor-img-wrap {
+    width: 250px;
+  }
+
+  .caption-wrap {
+    width: 250px;
+  }
   .editors-section, 
   .planet {
     width: 70%;
@@ -878,17 +896,46 @@ html {
   .astronomy {
     margin-left:   100px;
   }
- 
+
+  .footer-section {
+   margin: 0 50px;
+  }
+
+  .footer-top {
+    width: 100%;
+    vertical-align: middle;
+  }
+
+  .home {
+    position: absolute;
+    right: 55px;
+    font-size: 10px;
+  }
+
   .footer-line {
     display: none;
   } 
 
-  .footer-top {
+  /* .footer-top {
     width: 80%;
-  }
+  } */
 
-  .mobile-footer {
+  .mobile {
     display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 10px;
   }
 
+  .more {
+    display: none;
+  }
+
+  ul.news li {
+    list-style: none;
+  }
+
+  .footer-first-items {
+    list-style: none;
+  }
 }
