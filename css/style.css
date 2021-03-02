@@ -671,7 +671,7 @@ html {
     color: rgb(51, 51, 51)
   }
   .social-icons {
-    padding: 0 400px 0 400px;
+    margin: 20px 400px 0 350px;
   }
   .main-image {
     width: 80%;
@@ -838,10 +838,6 @@ html {
     padding: 10px 150px;
   }
 
-  .section-wrapper, {
-    margin-left:  50px;
-  }
-
   .space-astronomy {
     display: block;
     width: 30%;
@@ -878,6 +874,21 @@ html {
   .editor-header {
     top: 5px;
   }
+  
+  .astronomy {
+    margin-left:   100px;
+  }
  
- 
+  .footer-line {
+    display: none;
+  } 
+
+  .footer-top {
+    width: 80%;
+  }
+
+  .mobile-footer {
+    display: flex;
+  }
+
 }
