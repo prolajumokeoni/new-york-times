@@ -385,22 +385,32 @@ html {
   margin-top: 10px;
   display: inline-block;
   vertical-align: middle;
-  font-size: .8rem;
-  padding-left: 15px;
+  font-size: .6rem;
+  padding-left: 25px;
 }
 
 .aside,
 .sub-list {
   display: none;
 }
+.mobile {
+  width: 100%;
+  padding-left: 0;
+}
 
 .mobile-footer  {
   list-style: none;
-  color: rgb(0, 0, 0);
+  color: rgb(51, 51, 51);
+  font-size: .6rem;
+  font-weight: bolder;
 } 
 
 ul.mobile li {
   list-style: none;
+}
+
+.subscribe-aside {
+  display: none;
 }
 
 .footer-items {
@@ -412,6 +422,13 @@ ul.mobile li {
   text-align: center;
 }
 
+.footer-down {
+  text-align: center;
+  width: 90%;
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .footer-text {
   font-size: .7rem;
   color: rgb(110, 108, 108);
@@ -419,7 +436,6 @@ ul.mobile li {
 
 .footer-list {
   font-size: .7rem;
-  padding: 10px;
   color: rgb(110, 108, 108);
 }
 
@@ -907,7 +923,7 @@ ul.mobile li {
   }
 
   .footer-section {
-   margin: 0;
+    padding: 0 20px 0 40px;
   }
 
   .footer-top {
@@ -917,8 +933,12 @@ ul.mobile li {
 
   .home {
     position: absolute;
-    right: 55px;
+    right: 70px;
     font-size: 10px;
+  }
+
+  .aside-icons {
+    padding: 0 10px;
   }
 
   .footer-line {
@@ -926,6 +946,7 @@ ul.mobile li {
   } 
 
   .mobile {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -937,10 +958,14 @@ ul.mobile li {
 
   .mobile-footer {
     font-weight: bolder;
+    font-size: .8rem;
   }
 
   .more {
     display: none;
+  }
+  .subscribe-aside {
+    display: block;
   }
 
   .sub-list {
@@ -955,12 +980,24 @@ ul.mobile li {
     list-style: none;
   }
 
+  .bottom-list {
+    border-top: 1px solid rgb(110, 108, 108);
+  }
+  .footer-text-1 {
+    text-align: left;
+  }
+
+  .footer-down {
+    text-align: right;
+  }
+
   .aside {
     display: block;
   }
 
   .footer-first-items {
     list-style: none;
+    width: 100%;
   }
 
 }
