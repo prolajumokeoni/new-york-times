@@ -955,6 +955,10 @@ ul.mobile li {
     list-style: none;
   }
 
+  .aside {
+    display: block;
+  }
+
   .footer-first-items {
     list-style: none;
   }
