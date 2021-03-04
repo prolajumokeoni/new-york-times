@@ -938,7 +938,7 @@ ul.mobile li {
   }
 
   .aside-icons {
-    padding: 0 10px;
+    padding: 0 5px;
   }
 
   .footer-line {
@@ -966,6 +966,16 @@ ul.mobile li {
   }
   .lister {
     border-left: 1px solid rgb(110, 108, 108);
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    color: rgb(51, 51, 51);
+    font-size: 14px; display: block;
+    width: 100%;
+    padding-left: 10px;
+    color: rgb(51, 51, 51);
+    font-size: .7rem;
+    line-height: 2;
   }
 
   .subscribe-aside {
@@ -989,20 +999,29 @@ ul.mobile li {
   }
 
   .bottom-list {
+    width: 100%;
     border-top: 1px solid rgb(110, 108, 108);
   }
   .footer-text-1 {
     text-align: left;
+    margin-top: 2px;
+
   }
 
   .footer-down {
-    text-align: right;
+    text-align: left;
+    width: 100%;
+    margin-top: -18px;
   }
 
   .aside {
     display: block;
   }
 
+  .footer-down {
+    text-align: right;
+  }
+  
   .footer-first-items {
     list-style: none;
     width: 100%;
