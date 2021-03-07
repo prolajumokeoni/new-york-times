@@ -521,7 +521,6 @@ ul.mobile li {
     width: 100%;
   }
   .btn-div {
-    width: 50%;
     display: inline-block;
   }
 
@@ -853,26 +852,25 @@ ul.mobile li {
     padding-left: 60px;
     color: black
   }
-
-  .bottom-article {
-    width: 100%;
-  }
-
   .btn-div {
-    width: 30%;
+    text-align: left;
   }
 
   .button {
-    padding: 5px 50px;
+    width: 100%;
+    padding: 10px 100px;
+  }
+  .bottom-article {
+    vertical-align: middle;
+    position: relative;
+  }
+  .icon-button {
+    position: absolute;
+    top: -10px;
+    left: 100px;
   }
 
-  .icon-button {
-    width: 40%;
-    transform: scale(.8);
-  }
-  .icon-button {
-    padding-right: 30px;
-  }
+
 
   .space-astronomy {
     display: block;
@@ -938,7 +936,7 @@ ul.mobile li {
   }
 
   .aside-icons {
-    padding: 0 5px;
+    padding: 0 2px;
   }
 
   .footer-line {
@@ -1002,6 +1000,7 @@ ul.mobile li {
     width: 100%;
     border-top: 1px solid rgb(110, 108, 108);
   }
+
   .footer-text-1 {
     text-align: left;
     margin-top: 2px;
@@ -1009,18 +1008,15 @@ ul.mobile li {
   }
 
   .footer-down {
-    text-align: left;
-    width: 100%;
-    margin-top: -18px;
+    text-align: right;
+    margin-top: -17px;
+    padding-left: 40px;
   }
 
   .aside {
     display: block;
   }
 
-  .footer-down {
-    text-align: right;
-  }
   
   .footer-first-items {
     list-style: none;
