@@ -878,14 +878,15 @@ ul.mobile li {
   }
   
   .editors-pick {
-    width: 70%;
+    width: 60%;
   }
   
   
   .most-popular {
-    width: 20%;
+    width: 27%;
     line-height: 2;
-    right: 15%;
+    font-size: 1rem;
+    right: 7%;
   }
   
   .editors-img {
