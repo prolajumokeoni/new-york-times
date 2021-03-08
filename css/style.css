@@ -1003,6 +1003,10 @@ ul.mobile li {
     border-top: 1px solid rgb(110, 108, 108);
   }
 
+  .footer-section {
+    display: block;
+  }
+
   .footer-text-1 {
     text-align: left;
     margin-top: 2px;
