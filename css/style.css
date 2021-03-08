@@ -24,23 +24,11 @@ html {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-
-.bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.header-logo {
-  display: flex;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  position: relative;
+  vertical-align: middle;
 }
 
 .user {
+  color: rgb(51, 51, 51);
   position: absolute;
   right: 20px;
 }
@@ -531,7 +519,7 @@ ul.mobile li {
   }
   .astronomy {
     width: 100%;
-    padding-bottom: 20%;
+    height: 1500px;
   }
   
   .space-astronomy {
@@ -614,47 +602,34 @@ ul.mobile li {
   .space-4 {
     display: none;
   }
+  
+  .footer-section {
+    display: none;
+  }
 
 }
 
 @media (min-width: 992px) {
-  .header-icons {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    height: 50px;
-    color: rgb(51, 51, 51);
-    vertical-align: middle;
-  }
-
   .bar {
-    vertical-align: middle;
-  }
-
-  .left-position {
-    display: flex;
-    vertical-align: middle;
+    display: inline-block;
+    padding: 0 10px;
   }
 
   .search-icon {
-    display: block;
-    padding: 10px 20px;
+    display: inline-block;
+    padding: 0 10px;
   }
 
   .space {
-    display: block;
-    padding: 10px 20px;
+    display: inline-block;
+    padding: 0 10px;
   }
 
-  .space-cosmos {
+
+  a.space-cosmos {
+    text-decoration: none;
     color: black;
-    font-size: 20px;
     font-weight: bolder;
-  }
-
-  .header-logo {
-    transform: scale(1.5);
   }
 
   .user {
@@ -663,13 +638,14 @@ ul.mobile li {
 
   .side-buttons {
     position: relative;
-    padding-bottom: 20px;
+    margin-top: 0;
+    display: inline-block;
   }
 
   .subscribe {
     background-color: rgb(50, 104, 145);
     border: rgb(0, 60, 105);
-    padding: 15px 40px;
+    padding: 11px 12px 8px;
     position: relative;
     font-size: 10px;
     color: white;
@@ -677,7 +653,7 @@ ul.mobile li {
   }
 
   .login {
-    padding: 15px 15px;
+    padding: 11px 12px 8px;
     background-color: rgb(50, 104, 145);
     border: rgb(0, 60, 105); 
     position: relative;
@@ -686,18 +662,23 @@ ul.mobile li {
     border-radius: 5px;
   }
 
+  
   .Space-header {
-    padding: 100px 400px 0 400px;
-    font-size: 20px;
+    padding: 100px 400px 20px 350px;
+    width: 50%;
   }
 
   .space-line {
-    margin: 0 400px;
+    margin: 0 350px;
+    width: 40%;
     color: rgb(51, 51, 51)
   }
+
   .social-icons {
-    margin: 20px 400px 0 350px;
+    padding: 20px 400px 0 350px;
+    width: 40%;
   }
+
   .main-image {
     width: 80%;
     margin: 20px 200px 0;
@@ -705,12 +686,13 @@ ul.mobile li {
 
   .image-text {
     margin: 0 200px;
-    font-size: 20px;
+    padding: 0;
+    font-size: 1rem;
     width: 50%;
   }
 
   article {
-    margin: 0 300px;
+    margin: 0 auto;
     width: 50%;
     text-align: justify;
     line-height: 1.5;
@@ -735,7 +717,7 @@ ul.mobile li {
 
   .inflation-header {
     padding-top: 50px;
-    width: 70%;
+    width: 100%;
     text-align: left;
   }
 
@@ -752,11 +734,16 @@ ul.mobile li {
 
   .inflation-section {
     margin: 0 50px 0 150px;
-    position: relative;
   }
 
-  .sub-title-article {
+  .sub-title-article-f {
     line-height: 1;
+    font-size: 1rem;
+    color: rgb(110, 108, 108);
+  }
+
+  .button-article {
+    position: relative;
   }
 
   .inflation {
@@ -771,19 +758,29 @@ ul.mobile li {
     text-align: left;
     width: 24%;
     top: unset;
-    font-size: 20px;
+    font-size: 1.2rem;
     line-height: 1;
     color: rgb(51, 51, 51);
   }
   
   .head-larry {
     margin: 0 50px 0 150px;
+    position: relative;
   }
 
   .youtube {
     margin: 0 15px;
     width: 650px;
     height: 400px;
+  }
+
+  .prof-section {
+    width: 100%;
+  }
+  .prof {
+    margin: 0 15px;
+    text-align: left;
+    width: 30%;
   }
   
   .main-image-1 {
@@ -792,26 +789,28 @@ ul.mobile li {
     padding: 5px 0;
   }
 
-  .image-caption {
-    margin: 0;
-    padding: 5px;
-    font-size: 12px;
+  .image-container {
+    width: 100%;
   }
 
-  .side-section {
-    display: block;
+  .image-caption {
+    width: 90%;
+    padding: 0;
+    font-size: 1rem;
+    text-align: left;
+  }
+  .side-title {
+    padding-left: 15px;
   }
 
   .side-carousel {
     display: block;
     border: none;
     display: flex;
+    flex-wrap: wrap;
     overflow: unset;
     flex-wrap: wrap;
-    width: 50%;
-    display: block;
-    position: absolute;
-    left: 700px;
+    width: 30%;
   }
 
   .side-wrapper {
@@ -822,15 +821,17 @@ ul.mobile li {
   .side-img {
     display: block;
   }
+
   .side-pic {
   padding: 5px;
   width: 100px;
   height: 100px; 
-}
+  }
+
   .side-img-text-1 {
     border-left: none;
-    width: 30%;
-    font-size: 10px;
+    text-align: left;
+    width: 35%;
     margin-top: 5px;
     padding: 5px 5px;
   }
@@ -844,14 +845,13 @@ ul.mobile li {
     display: none;
   }
   
-  .side-title {
+  .side-section {
     display: block;
     position: absolute;
-    left: 680px;
-    width: 50%;
-    padding-left: 60px;
-    color: black
+    text-align: end;
+    margin-left: 700px;
   }
+  
   .btn-div {
     text-align: left;
   }
@@ -866,7 +866,7 @@ ul.mobile li {
   }
   .icon-button {
     position: absolute;
-    top: -10px;
+    bottom: 15px;
     left: 100px;
   }
 
@@ -917,11 +917,11 @@ ul.mobile li {
   }
   
   .astronomy {
-    margin-left:   100px;
+    margin-left: 100px;
   }
 
   .footer-section {
-    padding: 0 20px 0 40px;
+    margin: 0 50px;
   }
 
   .footer-top {
@@ -984,6 +984,7 @@ ul.mobile li {
     display: block;
     width: 100%;
     padding-left: 0;
+    line-height: 1.5rem;
     color: rgb(51, 51, 51);
     font-size: 14px;
   }
@@ -1008,9 +1009,9 @@ ul.mobile li {
   }
 
   .footer-down {
-    text-align: right;
+    text-align: end;
     margin-top: -17px;
-    padding-left: 40px;
+    padding-left: 80px;
   }
 
   .aside {
